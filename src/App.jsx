@@ -10,6 +10,7 @@ import AboutPage from "./pages/about/AboutPage";  // Matching the exact file nam
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Import Router and related components
 import AOS from "aos";
 import "aos/dist/aos.css";
+import WhyUs from "./components/Services/WhyUs";
 
 AOS.init();
 
@@ -24,6 +25,7 @@ const App = () => {
               <Hero />
               <Services />
               <Banner />
+              <WhyUs/>
               <Subscribe />
               <Banner2 />
               <Footer />
