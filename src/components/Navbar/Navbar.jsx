@@ -12,7 +12,7 @@ const NavbarMenu = [
   {
     id: 2,
     title: "About",
-    link: "#",
+    link: "/about",
   },
   {
     id: 3,
