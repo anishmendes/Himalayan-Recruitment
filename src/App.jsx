@@ -6,7 +6,8 @@ import Subscribe from "./components/Subscribe/Subscribe";
 import Banner2 from "./components/Banner/Banner2";
 import Footer from "./components/Footer/Footer";
 import AboutPage from "./pages/about/AboutPage";  // Matching the exact file name
-
+import Contact from './pages/contact/Contact'
+import Job from './pages/jobs/Job'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Import Router and related components
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -34,6 +35,8 @@ const App = () => {
           
           {/* Add About Us route */}
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/job" element={<Job />} />
         </Routes>
       </main>
     </Router>

@@ -7,7 +7,7 @@ import logo from "../../assets/logo.png";
 const NavbarMenu = [
   { id: 1, title: "Home", path: "/" },
   { id: 2, title: "About", path: "/about" },
-  { id: 3, title: "Jobs", path: "/jobs" },
+  { id: 3, title: "Jobs", path: "/job" },
   { id: 4, title: "Employers", path: "/employers" },
   { id: 5, title: "Contact", path: "/contact" },
 ];
@@ -58,7 +58,7 @@ const Navbar = () => {
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="lg:hidden absolute top-full left-0 w-full bg-white shadow-md"
+          className="lg:hidden  top-full left-0 w-full bg-blue-200 shadow-md"
         >
           <ul className="flex flex-col items-center py-4 space-y-3 text-lg font-medium">
             {NavbarMenu.map((menu) => (
